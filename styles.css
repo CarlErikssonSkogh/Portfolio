@@ -1,0 +1,334 @@
+body{
+    background-color: rgb(87, 78, 78);
+    padding:0px;
+    margin:0px;
+    height:100%;
+    overflow:hidden;
+}
+/*Blåa Former*/
+
+/*Kontakt information*/
+.kontaktInformation{
+   text-align:center;
+   line-height: 40px;
+   margin: 0 15px;
+}
+.gmail{
+    margin:0 50px;
+}
+.blueBottom{
+background-color: rgb(0, 181, 253);
+height:40px;
+width:100%;
+padding:0px;
+margin:0px;
+position:absolute;
+bottom:0;
+}
+
+.blueTriangle1{
+background-color: rgb(0, 181, 253);
+height:300px;
+width:300px;
+border-radius: 25px;
+transform:rotate(45deg);
+position:absolute;
+bottom:-150px;
+right: -125px;
+}
+.blueTriangle2{
+background-color: rgb(0, 181, 253);
+height:300px;
+width:300px;
+border-radius: 25px;
+transform:rotate(45deg);
+position:absolute;
+top:-150px;
+right: -125px;
+}
+.square1{
+    height:350px;
+    width:350px;
+    background-color: rgb(87, 207, 255);
+    border-radius: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    left:0;
+    margin:20px;
+    box-shadow: 20px 20px 1px  rgb(3, 133, 184);
+}
+.square2{
+    height:350px;
+    width:350px;
+    background-color:rgb(0, 181, 253);
+    border-radius: 50px;
+    position: relative;
+    margin:50px;
+    top:10px;
+    left:10px;
+}
+/*Profil Bild*/
+.profilBild{
+    width:250px;
+    height:250px;
+    border-radius: 25px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+}
+/*Bild*/
+.skogsBild{
+    background-color: black;
+    background-image: url(images/skogsbild.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: whitesmoke;
+    border-width: 3px;
+    height:250px;
+    width:250px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    filter:grayscale(45%);
+}
+/*navigeringsmeny*/
+.navigeringsMeny{
+    background-color:whitesmoke;
+    width:700px;
+    height:50px;
+    display:flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px;
+    margin:0px;
+    list-style: none;
+    border-radius:50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position:absolute;
+    top:10px;
+    right:10px;
+    user-select:none;
+}
+
+.navigeringsMeny li a{
+    text-decoration: none;
+    color:rgb(75, 75, 75);
+}
+
+/*Namn skylt*/
+.name{
+    height:50px;
+    line-height: 50px;
+    width:550px;
+    background-color: rgb(218, 218, 218);
+    position: absolute;
+    right:50px;
+    top:100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:whitesmoke;
+    text-align:center;
+    font-size: 25px;
+    box-shadow: 0px 25px 0px rgb(32, 32, 32);
+}
+
+/*iconer*/
+
+.iconPlatform{
+    height:40px;
+    width:400px;
+    background-color: rgb(32, 32, 32);
+    position:relative;
+    right:-20px;
+    bottom:-75px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.iconPlatform img{
+    width:100px;
+    height:100px;
+}
+#instagram{
+    position: absolute;
+    bottom: 39px;
+    left:10px;
+}
+#facebook{
+    position: absolute;
+    bottom: 39px;
+    right: 150px;
+}
+#youtube{
+    position: absolute;
+    bottom: 25px;
+    right:10px;
+}
+
+/*Bilder på about me page*/
+.bilderRow1{
+    display: flex;
+    height:250px;
+    width:700px;
+    gap:30px;
+    position:absolute;
+    right:20px;
+    bottom:280px;
+}
+.bilderRow2{
+    display: flex;
+    height:250px;
+    width:700px;
+    gap:30px;
+    position:absolute;
+    bottom:50px;
+    right:20px;
+}
+
+.bilderRow1 img{
+    width:325px;
+    height:200px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.bilderRow2 img{
+    width:325px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+/*About me text*/
+
+.aboutMeBox{
+    background-color: whitesmoke;
+    height:400px;
+    width:400px;
+    border-radius: 50px;
+    position:absolute;
+    left:75px;
+    bottom:110px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-style:solid;
+    border-color:gray;
+    border-width:5px;
+}
+.aboutMeText{
+clear:left;
+font-size: 30;
+margin:15px;
+font-weight:bold;
+width:380px;
+margin:auto;
+}
+
+/*Work bilder med text*/
+
+.container{
+    margin:0px;
+    height:100px;
+    padding: 2px 16px;
+    background-color:whitesmoke;
+    position: relative;
+    top: -10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.paragraf{
+    font-weight:bold;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card1{
+    width:450px;
+    height:400px;
+    position:absolute;
+    top:25%;
+    left:150px;
+}
+.card2{
+    height:400px;
+    width:450px;
+    position:absolute;
+    top:25%;
+    right:150px;
+}
+
+.cardImage{
+    height:300px;
+    width:450px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+/*Work page*/
+
+/*Bilder*/
+.universitet{
+    height:465px;
+    width:465px;
+    border-radius:25px;
+    border:5px solid gainsboro;
+    position:absolute;
+    left:350px;
+    top:100px;
+}
+
+.books{
+    height:275px;
+    width:275px;
+    border-radius:25px;
+    border:5px solid gainsboro;
+    position:absolute;
+    right:80px;
+    top:110px;
+}
+/*Text*/
+.educationText{
+    height:325px;
+    width:325px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items:center;
+    border-radius: 25px;
+    border:solid 5px gainsboro;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left:250px;
+}
+
+.educationList{
+line-height: 500%;
+}
+
+.educationList li{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
